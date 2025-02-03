@@ -1,0 +1,22 @@
+{
+  "name": "ign-windsurf",
+  "version": "1.0.0",
+  "description": "IGN WindSurf Project Management Tool",
+  "main": "app/backend/app.js",
+  "engines": {
+    "node": "22.11.0"
+  },
+  "scripts": {
+    "start": "node app/backend/app.js",
+    "dev": "nodemon app/backend/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.6",
+    "express": "^4.21.1",
+    "mssql": "^11.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

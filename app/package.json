@@ -1,0 +1,6 @@
+// package.json (à la racine du projet)
+"scripts": {
+"start": "node app/app.js",
+"frontend": "cd frontend && npm start",
+"dev": "concurrently \"npm run start\" \"npm run frontend\""
+}

@@ -1,0 +1,4 @@
+npm install express mssql dotenv
+npm install express
+npm install mssql
+npm install dotenv
